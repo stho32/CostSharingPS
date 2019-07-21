@@ -14,6 +14,16 @@ Which means, that every person in the group can pay as much as they want.
  - The invoices are collected, they get their number or whatever for reference and the information who payed how much for them.
  - The sample shows how to use the cmdlets of the module to create the desired result: A simple list of the least amount of payments between the people so that everyone payed an equal amount.
 
+## Compatibility
+
+The module has been developed in Powershell Core on a Linux machine. 
+As it does not contain anything special it should also be fully compatible with Powershell on Windows although I did not test it there. 
+If you want to find out if it works, this is quite simple: Just invoke the Pester unit tests.
+
+```Powershell
+Invoke-Pester
+```
+
 ## The Example
 
 ```powershell
